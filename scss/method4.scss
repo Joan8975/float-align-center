@@ -1,0 +1,29 @@
+*{
+	box-sizing: border-box;
+	outline: none;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: #536162;
+
+}
+
+.item{
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #F2F4ED;
+    position: absolute;
+    top:50%;
+    right:0;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%)
+}
+
+.clearfix{
+    clear:both;
+}
